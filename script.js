@@ -1,7 +1,7 @@
 // 1.Javascript fundamentals - part 2
 
 
-// Coding Challenge #1
+// *********************************Coding Challenge #1*************************************************
 // Back to the two gymnastics teams, the Dolphins and the Koalas! There is a new 
 // gymnastics discipline, which works differently.
 // Each team competes 3 times, and then the average of the 3 scores is calculated (so 
@@ -68,35 +68,35 @@
 // § Data 1: Dolphins score 44, 23 and 71. Koalas score 65, 54 and 49
 // § Data 2: Dolphins score 85, 54 and 41. Koalas score 23, 34 and 27
 
-const calcAverage = (num1,num2,num3) => {
-  return (num1+num2+num3)/3;
-}
+// const calcAverage = (num1,num2,num3) => {
+//   return (num1+num2+num3)/3;
+// }
 
-let scoreDolphine = calcAverage(85,54,41);
-console.log(scoreDolphine);
+// let scoreDolphine = calcAverage(85,54,41);
+// console.log(scoreDolphine);
 
-let scoreKoala = calcAverage(23,34,27);
-console.log(scoreKoala);
+// let scoreKoala = calcAverage(23,34,27);
+// console.log(scoreKoala);
 
-const checkWinner = function(avgDolhins, avgKoalas){
-   if(avgDolhins>= avgKoalas * 2){
-    return`Dolphine win the match ${scoreDolphine} vs ${scoreKoala} `;
-   }
-   else if(avgKoalas >= avgDolhins * 2){
-    return`Koala win the match ${scoreDolphine} vs ${scoreKoala}`;
-   }
-   else{
-    return`Both teams are win 🏆`;
-   }
-}
+// const checkWinner = function(avgDolhins, avgKoalas){
+//    if(avgDolhins>= avgKoalas * 2){
+//     return`Dolphine win the match ${scoreDolphine} vs ${scoreKoala} `;
+//    }
+//    else if(avgKoalas >= avgDolhins * 2){
+//     return`Koala win the match ${scoreDolphine} vs ${scoreKoala}`;
+//    }
+//    else{
+//     return`Both teams are win 🏆`;
+//    }
+// }
 
 
-let score = checkWinner(scoreDolphine, scoreKoala);
-console.log(score);
+// let score = checkWinner(scoreDolphine, scoreKoala);
+// console.log(score);
 
-scoreDolphine = calcAverage(44,23,71);
-scoreKoala = calcAverage(65,54,49);
+// scoreDolphine = calcAverage(44,23,71);
+// scoreKoala = calcAverage(65,54,49);
 
-score = checkWinner(scoreDolphine, scoreKoala);
-console.log(score);
+// score = checkWinner(scoreDolphine, scoreKoala);
+// console.log(score);
 
