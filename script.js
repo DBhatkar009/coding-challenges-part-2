@@ -28,39 +28,6 @@
 
 // Ans:-
 
-// **Code Logic 1 --here i self adding number and then divided by 3;
-
-// const calcAverageDol = (avgDolhins) => {
-//     return (avgDolhins)/3;
-// }  
-
-// const calcAverageKoal = (avgKoalas) => {
-//   return (avgKoalas)/3;
-// } 
-
-// function checkWinner(avgDolhins, avgKoalas) {
-//   const dolphin = calcAverageDol(avgDolhins);
-//   const koala = calcAverageKoal(avgKoalas);
-//   const score = `Score Dolphine ${dolphin} and Score Koala ${koala}`;
-//   if (dolphin >= 2 * koala) {
-//     console.log(`Dolhphine Win the Match with ${dolphin} this score 🏆`);
-//   }
-//   else if (koala >= 2 * dolphin) {
-//     console.log(`Koala win the Match with ${koala} this score 🏆`);
-//   }
-//   else {
-//     console.log(`drew the match both team win 🏆`);
-//   }
-
-//   return score;
-// }
-
-// const data1 = checkWinner(180, 84);
-// console.log(data1);
-
-// const data2 = checkWinner(138, 168);
-// console.log(data2);
-
 
 // **Code Logic 2 I am not Adding Self Number here that code doing Adding Numbers and Divided by 3;
 
@@ -68,37 +35,33 @@
 // § Data 1: Dolphins score 44, 23 and 71. Koalas score 65, 54 and 49
 // § Data 2: Dolphins score 85, 54 and 41. Koalas score 23, 34 and 27
 
-// const calcAverage = (num1,num2,num3) =>{
-//     return (num1 + num2 + num3)/3;  
-//   } 
-  
-  
-//   let scoreDolphins = calcAverage(85, 54, 41);
-//   let scoreKoalas = calcAverage(23, 34, 27);
-//   console.log(scoreDolphins, scoreKoalas);
-  
-  
-//   const checkWinner = function(avgDolphins, avgKoalas){
-//       if(avgDolphins >= avgKoalas * 2){
-//           console.log(`Dolphine win ${scoreDolphins} vs ${scoreKoalas}`);
-//       }
-//       else if(avgKoalas >= avgDolphins * 2){
-//           console.log(`Koala Win ${scoreKoalas} vs ${scoreDolphins}`);
-//       }
-//       else {
-//           console.log(`No one win the Match`);
-//       }
-//   }
-  
-//   const score = checkWinner(scoreDolphins, scoreKoalas);
-//   console.log(score);
-  
-//   scoreDolphins = calcAverage(44, 23, 71);
-//   scoreKoalas = calcAverage(65, 54, 49);
-//   console.log(scoreDolphins, scoreKoalas);
+/*
+const calcAverage = (n1, n2, n3) =>{
+    const result = (n1 + n2 + n3)/3
+    return result;
+}
 
-//   const score1 = checkWinner(scoreDolphins, scoreKoalas);
-//   console.log(score1); 
+let scoreDolhins = calcAverage(85, 54, 41);
+let scoreKoalas = calcAverage(23, 34, 27);
+
+
+const checkWinner = function(avgDolhins, avgKoalas){
+    if(avgDolhins >= avgKoalas * 2){
+       console.log(`dolphine win the match with score ${scoreDolhins} 🏆`);
+    } 
+    else if(avgKoalas >= avgDolhins * 2){
+       console.log(`Koala win the match with score of ${scoreKoalas} 🏆`);
+    }
+    else if(avgKoalas === avgDolhins){
+      console.log(`drew the match both teams are win 🏆`);
+    }
+    else {
+        console.log(`no one win the match`);
+    }
+}
+
+console.log(checkWinner(scoreDolhins, scoreKoalas));
+*/
 
 
 // *********************************Coding Challenge #2*************************************************
@@ -129,3 +92,4 @@
 
 // const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 // console.log(totals);
+
